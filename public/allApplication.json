@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.ibb.co.com/BhzTHXR/fitness.jpg",
+    "title": "FitTrack",
+    "companyName": "HealthSync Labs",
+    "id": 1,
+    "description": "Track workouts, calories, and fitness goals with insights.",
+    "size": 80,
+    "reviews": 15800,
+    "ratingAvg": 4.7,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 3400 },
+      { "name": "5 star", "count": 9500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/WvxS4ZyJ/messenger.jpg",
+    "title": "ChatFlow Messenger",
+    "companyName": "TechNova Ltd.",
+    "id": 2,
+    "description": "Secure messaging with cloud sync, group chat, and media sharing.",
+    "size": 45,
+    "reviews": 12500,
+    "ratingAvg": 4.5,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PG8p6XWp/fooddelivery.jpg",
+    "title": "FoodFiesta",
+    "companyName": "DelishGo Inc.",
+    "id": 3,
+    "description": "Order food from nearby restaurants, track delivery in real time.",
+    "size": 65,
+    "reviews": 14200,
+    "ratingAvg": 4.4,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MDhjht9j/streaming.png",
+    "title": "Streamly",
+    "companyName": "MediaWave",
+    "id": 4,
+    "description": "Watch movies, shows, and live TV in HD with offline mode.",
+    "size": 120,
+    "reviews": 26000,
+    "ratingAvg": 4.6,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 8000 },
+      { "name": "5 star", "count": 16200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Ngd0G6MD/documentscanner.png",
+    "title": "DocuScan",
+    "companyName": "ScanIt Labs",
+    "id": 5,
+    "description": "Scan documents, receipts, whiteboards, convert to PDF or text.",
+    "size": 30,
+    "reviews": 8700,
+    "ratingAvg": 4.3,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 4300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/SDNj8dgC/ridesharing.jpg",
+    "title": "RideOn",
+    "companyName": "TransitX",
+    "id": 6,
+    "description": "Book rides instantly, track driver and pay cashless.",
+    "size": 55,
+    "reviews": 13400,
+    "ratingAvg": 4.4,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4300 },
+      { "name": "5 star", "count": 6300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/FLB96CQh/ebook.png",
+    "title": "BookNest",
+    "companyName": "ReadMore",
+    "id": 7,
+    "description": "Read eBooks, magazines, personalize your library and fonts.",
+    "size": 70,
+    "reviews": 9100,
+    "ratingAvg": 4.5,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 4500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/twJNgdtd/developer.png",
+    "title": "DevMate",
+    "companyName": "CodeVerse",
+    "id": 8,
+    "description": "A social dev community: share code, collaborate, learn together.",
+    "size": 95,
+    "reviews": 9200,
+    "ratingAvg": 4.4,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 4700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/XZxJgQMS/game.jpg",
+    "title": "GameHub",
+    "companyName": "PlayNation",
+    "id": 9,
+    "description": "Play mini-games, challenge others, enjoy daily rewards.",
+    "size": 150,
+    "reviews": 24500,
+    "ratingAvg": 4.6,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2100 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 6200 },
+      { "name": "5 star", "count": 11200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LDgk38qb/news.jpg",
+    "title": "Newsly",
+    "companyName": "MediaPulse",
+    "id": 10,
+    "description": "Read breaking news, customize your feed, get alerts.",
+    "size": 55,
+    "reviews": 13400,
+    "ratingAvg": 4.3,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 6200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bMN3x8Jm/shopping.png",
+    "title": "ShopEase",
+    "companyName": "RetailX",
+    "id": 11,
+    "description": "Shop deals, coupons, find local store offers in one app.",
+    "size": 65,
+    "reviews": 15800,
+    "ratingAvg": 4.5,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/q2TbCgC/meditation.jpg",
+    "title": "MindSpace",
+    "companyName": "ZenLabs",
+    "id": 12,
+    "description": "Guided meditations, ambient soundscapes, mood tracking.",
+    "size": 80,
+    "reviews": 11200,
+    "ratingAvg": 4.7,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 6400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PvVrry8F/wheather.png",
+    "title": "Weatherly",
+    "companyName": "SkyView Apps",
+    "id": 13,
+    "description": "Get real-time weather, forecasts, and alerts globally.",
+    "size": 50,
+    "reviews": 7600,
+    "ratingAvg": 4.1,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 3100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/93vz9LDZ/travel.jpg",
+    "title": "TravelMate",
+    "companyName": "GlobalGo",
+    "id": 14,
+    "description": "Book flights, hotels, explore destinations with guides.",
+    "size": 105,
+    "reviews": 15700,
+    "ratingAvg": 4.6,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 9400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ynKWshtj/education.jpg",
+    "title": "EduLearn",
+    "companyName": "BrightMind Academy",
+    "id": 15,
+    "description": "Online courses, quizzes, progress tracking, certifications.",
+    "size": 120,
+    "reviews": 8700,
+    "ratingAvg": 4.5,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 3700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zVSw7CDn/musicplayer.jpg",
+    "title": "MusicSphere",
+    "companyName": "SoundTech",
+    "id": 16,
+    "description": "Stream music, build playlists, discover new tracks.",
+    "size": 95,
+    "reviews": 21000,
+    "ratingAvg": 4.8,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 12800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/BVLr2s2J/financeexpense.png",
+    "title": "BudgetBuddy",
+    "companyName": "FinanceX",
+    "id": 17,
+    "description": "Track income, expenses, and savings with smart charts.",
+    "size": 70,
+    "reviews": 5400,
+    "ratingAvg": 4.4,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 1900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1YMBKnmc/photoediting.jpg",
+    "title": "PhotoBlend",
+    "companyName": "PixelForge",
+    "id": 18,
+    "description": "Edit photos with filters, layers, AI tools and share easily.",
+    "size": 110,
+    "reviews": 9800,
+    "ratingAvg": 4.6,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 4500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/kgpHNPwk/notetaking.jpg",
+    "title": "NoteEase",
+    "companyName": "SimpleWare Inc.",
+    "id": 19,
+    "description": "Take notes, sync across devices, use tags and reminders.",
+    "size": 25,
+    "reviews": 4300,
+    "ratingAvg": 4.3,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/WWbKdwDV/todolist.jpg",
+    "title": "TaskMaster Pro",
+    "companyName": "WorkSync Solutions",
+    "id": 20,
+    "description": "Manage tasks, set deadlines, track progress, and get reminders.",
+    "size": 60,
+    "reviews": 8600,
+    "ratingAvg": 4.2,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 3200 }
+    ]
+  }
+]
