@@ -1,9 +1,16 @@
 import React from 'react';
+import Banner from '../../components/Banner/Banner';
+import TrendingApps from '../TrendingApps/TrendingApps';
+import { useLoaderData } from 'react-router';
 
 const Home = () => {
+
+    const trendingData = useLoaderData();
+
     return (
         <div>
-            <h1>hi home</h1>
+            <Banner></Banner>
+            <TrendingApps trendingData={trendingData}></TrendingApps>
         </div>
     );
 };

@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router';
 import logoImg from '../../assets/logo.png';
-import { Github } from 'lucide-react';
+import { Cog, Github, House, MonitorCog } from 'lucide-react';
 
 const Navbar = () => {
 
     const links = <>
 
-        <Link to={'/'}><li className='ml-2'><button className='focus:underline focus:text-[#632ee3] text-[16px] font-semibold'>Home</button></li></Link>
-        <Link to={'/app'}><li className='ml-2'><button className='focus:underline focus:text-[#632ee3] text-[16px] font-semibold'>Apps</button></li></Link>
-        <Link to={'/installation'}><li className='ml-2'><button className='focus:underline focus:text-[#632ee3] text-[16px] font-semibold'>Installation</button></li></Link>
+        <Link to={'/'}><li className='ml-2'><button className='focus:underline focus:text-[#632ee3] text-[16px] font-semibold'> <House className='w-5 h-5'></House> Home</button></li></Link>
+        <Link to={'/apps'}><li className='ml-2'><button className='focus:underline focus:text-[#632ee3] text-[16px] font-semibold'> <Cog className='w-5 h-5'></Cog> Apps</button></li></Link>
+        <Link to={'/installation'}><li className='ml-2'><button className='focus:underline focus:text-[#632ee3] text-[16px] font-semibold'> <MonitorCog className='w-5 h-5'></MonitorCog> Installation</button></li></Link>
 
     </>
 

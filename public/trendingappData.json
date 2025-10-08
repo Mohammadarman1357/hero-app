@@ -8,7 +8,7 @@
     "size": 85,
     "reviews": 91234,
     "ratingAvg": 4.8,
-    "downloads": 10000000,
+    "downloads": "10M",
     "ratings": [
       { "name": "1 star", "count": 1200 },
       { "name": "2 star", "count": 950 },
@@ -19,14 +19,14 @@
   },
   {
     "image": "https://i.ibb.co.com/qYxbC3dp/smplantodowithreminder.png",
-    "title": "SmPlan: ToDo List With Reminder",
+    "title": "SmPlan: ToDo List Reminder",
     "companyName": "Smart Productivity Apps",
     "id": 2,
     "description": "Organize your day with smart task management and reminders to boost productivity.",
     "size": 42,
     "reviews": 57890,
     "ratingAvg": 4.5,
-    "downloads": 5000000,
+    "downloads": "50M",
     "ratings": [
       { "name": "1 star", "count": 1900 },
       { "name": "2 star", "count": 2200 },
@@ -44,7 +44,7 @@
     "size": 56,
     "reviews": 114520,
     "ratingAvg": 4.7,
-    "downloads": 10000000,
+    "downloads": "10M",
     "ratings": [
       { "name": "1 star", "count": 1600 },
       { "name": "2 star", "count": 2200 },
@@ -62,7 +62,7 @@
     "size": 39,
     "reviews": 32000,
     "ratingAvg": 4.6,
-    "downloads": 2000000,
+    "downloads": "20M",
     "ratings": [
       { "name": "1 star", "count": 600 },
       { "name": "2 star", "count": 1000 },
@@ -80,7 +80,7 @@
     "size": 63,
     "reviews": 76500,
     "ratingAvg": 4.4,
-    "downloads": 7000000,
+    "downloads": "70M",
     "ratings": [
       { "name": "1 star", "count": 2300 },
       { "name": "2 star", "count": 3100 },
@@ -98,7 +98,7 @@
     "size": 48,
     "reviews": 58900,
     "ratingAvg": 4.6,
-    "downloads": 4000000,
+    "downloads": "40M",
     "ratings": [
       { "name": "1 star", "count": 900 },
       { "name": "2 star", "count": 1400 },
@@ -116,7 +116,7 @@
     "size": 52,
     "reviews": 37200,
     "ratingAvg": 4.3,
-    "downloads": 3000000,
+    "downloads": "30M",
     "ratings": [
       { "name": "1 star", "count": 1200 },
       { "name": "2 star", "count": 1800 },
@@ -134,7 +134,7 @@
     "size": 78,
     "reviews": 89500,
     "ratingAvg": 4.7,
-    "downloads": 8000000,
+    "downloads": "80M",
     "ratings": [
       { "name": "1 star", "count": 1000 },
       { "name": "2 star", "count": 1600 },
