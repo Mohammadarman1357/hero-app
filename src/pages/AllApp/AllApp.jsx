@@ -2,14 +2,16 @@ import { Download, Star } from 'lucide-react';
 import React from 'react';
 import { Link } from 'react-router';
 
-const TrendingApp = ({ trendData }) => {
+const AllApp = ({ data }) => {
 
-    const { id, image, title, ratingAvg, downloads } = trendData;
+    const { id, image, title, ratingAvg, downloads } = data;
+
 
     return (
         <Link to={`/appDetails/${id}`}>
 
             <div className='bg-white p-4 rounded-[4px] hover:-translate-y-2 shadow-md inter-font'>
+
                 <span><img className='rounded-[8px] w-full h-[240px]' src={image} alt="" /></span>
 
                 <h1 className='my-3 font-medium text-[#001931]'>{title}</h1>
@@ -24,4 +26,4 @@ const TrendingApp = ({ trendData }) => {
     );
 };
 
-export default TrendingApp;
+export default AllApp;

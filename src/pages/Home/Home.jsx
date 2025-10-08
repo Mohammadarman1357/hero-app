@@ -11,6 +11,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <TrendingApps trendingData={trendingData}></TrendingApps>
+            
         </div>
     );
 };

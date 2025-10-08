@@ -9,7 +9,7 @@ const Navbar = () => {
 
         <Link to={'/'}><li className='ml-2'><button className='focus:underline focus:text-[#632ee3] text-[16px] font-semibold'> <House className='w-5 h-5'></House> Home</button></li></Link>
         <Link to={'/apps'}><li className='ml-2'><button className='focus:underline focus:text-[#632ee3] text-[16px] font-semibold'> <Cog className='w-5 h-5'></Cog> Apps</button></li></Link>
-        <Link to={'/installation'}><li className='ml-2'><button className='focus:underline focus:text-[#632ee3] text-[16px] font-semibold'> <MonitorCog className='w-5 h-5'></MonitorCog> Installation</button></li></Link>
+        <Link to={'/installedapps'}><li className='ml-2'><button className='focus:underline focus:text-[#632ee3] text-[16px] font-semibold'> <MonitorCog className='w-5 h-5'></MonitorCog> Installation</button></li></Link>
 
     </>
 
