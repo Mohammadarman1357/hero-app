@@ -1,8 +1,10 @@
 import { InfinityIcon, Search } from 'lucide-react';
-import React, { useState } from 'react';
+import React, { Suspense, useState } from 'react';
 import { useLoaderData } from 'react-router';
-import AllApp from '../AllApp/AllApp';
-import AppNotFound from '../AppNotFound/AppNotFound';
+import Loading from '../Loading/Loading';
+
+const AllApp = React.lazy(() => import('../AllApp/AllApp'));
+const AppNotFound = React.lazy(() => import('../AppNotFound/AppNotFound'));
 
 const AllApps = () => {
 
@@ -40,21 +42,22 @@ const AllApps = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-4 mt-10 gap-4'>
-                {searchValue ? (
-                    filteredResults.length > 0 ? (
-                        filteredResults.map((data) =>
-                            <AllApp key={data.id} data={data}></AllApp>
+            <Suspense fallback={<Loading></Loading>}>
+                <div className='grid grid-cols-1 md:grid-cols-4 mt-10 gap-4'>
+                    {searchValue ? (
+                        filteredResults.length > 0 ? (
+                            filteredResults.map((data) =>
+                                <AllApp key={data.id} data={data}></AllApp>
+                            )
+                        ) : (
+                            <AppNotFound></AppNotFound>
                         )
                     ) : (
-                        <AppNotFound></AppNotFound>
-                    )
-                ) : (
 
-                    allAppData.map(data => <AllApp key={data.id} data={data}></AllApp>))
-                }
-            </div>
-
+                        allAppData.map(data => <AllApp key={data.id} data={data}></AllApp>))
+                    }
+                </div>
+            </Suspense>
         </div>
     );
 };

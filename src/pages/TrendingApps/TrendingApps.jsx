@@ -1,7 +1,8 @@
-import React from 'react';
-import TrendingApp from '../TrendingApp/TrendingApp';
+import React, { Suspense } from 'react';
 import { TrendingUp } from 'lucide-react';
 import { Link } from 'react-router';
+import Loading from '../Loading/Loading';
+import TrendingApp from '../TrendingApp/TrendingApp';
 
 const TrendingApps = ({ trendingData }) => {
     return (
@@ -14,18 +15,22 @@ const TrendingApps = ({ trendingData }) => {
 
             <div className='grid grid-cols-1 md:grid-cols-4 gap-4 mt-10'>
                 {
-                    trendingData.map(trendData => <TrendingApp key={trendData.id} trendData={trendData}></TrendingApp>)
+                    trendingData.map(trendData =>
+                        <TrendingApp key={trendData.id} trendData={trendData}></TrendingApp>
+                    )
                 }
             </div>
 
             <span className='flex justify-center mt-5'>
+                <Suspense fallback={<Loading></Loading>}>
+                    <Link to={'/apps'}>
 
-                <Link to={'/apps'}>
-                    <button className='btn border-none px-6 mt-4 bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white font-semibold text-[16px]'>
-                        Show All
-                    </button>
-                </Link>
+                        <button className='btn border-none px-6 mt-4 bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white font-semibold text-[16px]'>
+                            Show All
+                        </button>
 
+                    </Link>
+                </Suspense>
             </span>
 
         </div>

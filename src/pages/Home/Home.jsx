@@ -1,7 +1,9 @@
-import React from 'react';
-import Banner from '../../components/Banner/Banner';
+import React, { Suspense } from 'react';
 import TrendingApps from '../TrendingApps/TrendingApps';
 import { useLoaderData } from 'react-router';
+import Loading from '../Loading/Loading';
+
+const Banner = React.lazy(() => import('../../components/Banner/Banner'));
 
 const Home = () => {
 
@@ -9,9 +11,10 @@ const Home = () => {
 
     return (
         <div>
-            <Banner></Banner>
+            <Suspense fallback={<Loading></Loading>}>
+                <Banner></Banner>
+            </Suspense>
             <TrendingApps trendingData={trendingData}></TrendingApps>
-            
         </div>
     );
 };

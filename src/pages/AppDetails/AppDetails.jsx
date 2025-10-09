@@ -1,9 +1,13 @@
 import { Download, Star, UserStar } from 'lucide-react';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import { Bar, BarChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { addToStoredDB, getStoredApp } from '../utility/addToDB';
+import { toast } from 'react-toastify';
 
 const AppDetails = () => {
+
+    const [isInstalled, setIsInstalled] = useState(false);
 
     const { appid } = useParams();
     const id = parseInt(appid);
@@ -19,6 +23,19 @@ const AppDetails = () => {
         }
         return rating;
     });
+
+    useEffect(() => {
+        const installedApps = getStoredApp();
+        if (installedApps.includes(appid)) {
+            setIsInstalled(true);
+        }
+    }, [appid]);
+
+    const handleInstall = id => {
+        toast.success(`Yahoo!! ${title} Installed Successfully`);
+        addToStoredDB(id);
+        setIsInstalled(true);
+    }
 
     return (
         <div className='inter-font'>
@@ -50,7 +67,10 @@ const AppDetails = () => {
                         </span>
                     </div>
 
-                    <button className='btn text-white bg-[#00D390]' >Install Now ({size} MB)</button>
+                    <button onClick={() => handleInstall(appid)}
+                        disabled={isInstalled} className='btn skeleton text-white bg-[#00D390]' >
+                        {isInstalled === true ? 'Installed' : `Install Now (${size} MB)`}
+                    </button>
 
                 </div>
             </div>
