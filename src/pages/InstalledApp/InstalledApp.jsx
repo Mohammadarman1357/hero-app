@@ -16,8 +16,8 @@ const InstalledApp = ({ installedApp, handleUninstall }) => {
     }
 
     return (
-        <div className='bg-white p-4 inter-font shadow-sm flex justify-between items-center'>
-            <div className='flex gap-4 items-center'>
+        <div className='bg-white p-4 inter-font shadow-sm flex flex-col md:flex-row justify-between items-center'>
+            <div className='flex flex-col md:flex-row gap-4 items-center'>
                 <span><img src={image} className='w-20 h-20 rounded-[8px]' alt="" /></span>
                 <span>
                     <h1 className='font-medium text-[#001931] text-xl'>{title}</h1>

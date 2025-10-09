@@ -61,7 +61,7 @@ const InstalledApps = () => {
                 <p className='text-xl text-[#627382] mt-4'>Explore All Trending Apps on the Market developed by us</p>
             </span>
 
-            <div className='flex items-center justify-between'>
+            <div className='flex flex-col md:flex-row items-center justify-between'>
 
                 <h1 className='font-semibold text-2xl text-[#001931] mb-4 md:mb-0'>({installList.length}) Apps Found</h1>
 
